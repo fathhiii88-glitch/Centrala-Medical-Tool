@@ -1,0 +1,4 @@
+2026-03-31 09:16:25.336619 - Invalid file: test.csv
+2026-03-31 09:20:30.044117 - Invalid file: test.csv
+ee5da538-3c34-43d4-ba00-b6cefd3e5e24 | 2026-04-08 11:16:09.260266 | Invalid file: test.csv
+8a276085-7ac1-4b83-8f5f-9fa996dba70d | 2026-04-08 15:19:25.870382 | Invalid file: test.csv
