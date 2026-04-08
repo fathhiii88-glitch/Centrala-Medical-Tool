@@ -13,4 +13,5 @@ class Logger:
             f.write(log_message + "\n")
 
         print("Logged:", log_message)
+        # Added for commit history screenshot
 
