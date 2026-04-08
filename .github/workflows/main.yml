@@ -1,0 +1,10 @@
+YAML
+name: Python CI
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Run main script
+      run: python main.py
