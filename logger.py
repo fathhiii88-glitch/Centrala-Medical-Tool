@@ -14,4 +14,5 @@ class Logger:
 
         print("Logged:", log_message)
         # Added for commit history screenshot
+        # Added for commit history screenshot
 
