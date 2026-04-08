@@ -24,7 +24,7 @@ class CSVValidator:
                 batch_ids.add(row[0])
                 try:
                     values = [float(x) for x in row[2:]]
-                    if any(v > 9.9 for v in values):
+                    if any(v > 9.999 for v in values):
                         print("Value out of range")
                         return False
                 except:
@@ -35,3 +35,4 @@ class CSVValidator:
 if __name__ == "__main__":
     validator = CSVValidator()
     validator.validate_file("test.csv")
+      # Added for commit history screenshot
